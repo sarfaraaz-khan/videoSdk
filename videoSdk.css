@@ -1,0 +1,254 @@
+/* .parent_Div{
+    background-color: aqua;
+} */
+
+.VideoContainer{
+    width: 100%;
+
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.videotag{
+    width: 500px;
+    height: 100%;
+    margin-right: 20px;
+   
+}
+/* .ctaCantainer{
+    background-color: aqua;
+} */
+
+/* .ctaCardCantainer{
+    background-color: #e0a435;
+} */
+.ctaCard{
+    width: 200px;
+    height: 100%;
+    background-color: rgb(247, 245, 242);
+    padding: 10px;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 16%);
+}
+.ctaCardHead{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+.ctaCardBody{
+    /* background-color: rgb(97, 99, 122); */
+    width: 100%;
+    height: 50%;
+}
+
+.ctaCardLogo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ctaCardtext{
+    width: 100%;
+    margin: 0px;
+    margin-left: 20px;
+    
+}
+.ctaCardtext h2{
+    
+    margin: 0px;
+}
+
+.ctaCardButtonImg{
+    width: 100%;
+}
+
+.ctaCardtextButton{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    color: #f1f1f1;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.ctaCardButton{
+    color: #f0f0ff;
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.row{
+    height: 200px;
+    display: flex;
+    margin-top: 100px;
+    margin-left : 100px;
+    margin-bottom: 200px;
+
+   
+}
+
+
+
+.card {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+.card:hover + .card2{
+    display: block;
+  
+   transition: none;
+    
+}
+.card2{
+    transition: none;
+    display: none;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 20px;
+   
+    border-top-left-radius:20 ;
+    border-top-right-radius:20 ;
+     background-color: #f0f0ff;
+    height: auto;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 16%);
+
+}
+
+.cardBody2{
+    padding: 10px;
+}
+
+
+.card2:hover{
+   transform: scale(1.2);
+
+}
+.card_img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.headingOverImg{
+    background-color: red;
+    position: absolute;
+    bottom: 77%;
+    left: 5%;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 20px;
+    padding: 2px;
+  
+}
+
+.card_img2{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+}
+.upComingCard{
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: -19px;
+    border-radius: none;
+}
+
+.icons_container{
+    width: 100%;
+    height: 20px;
+
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subHeading{
+    font-size: 1.3rem;
+    margin-top: 0px;
+}
+
+#icon{
+    width: 24;
+    height: 16;
+    filter: invert(79%) sepia(89%) saturate(2382%) hue-rotate(324deg) brightness(92%) contrast(90%);
+   
+}
+
+
+.heading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: column;
+}
+
+.upCmgButton{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: #e0a435;
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: default;
+}
+ 
+.upCmgCard_img2{
+    width: 100%;
+}
+
+/* .upComingHeadingOverImg{
+    background-color: red;
+    position: absolute;
+    top: 90%;
+    left: 17%;
+    font-size: 1.1rem;
+    color: #fff;
+    margin-top: 20px;
+    padding: 2px;
+} */
+
+.date{
+    margin-top: 7px;
+}
+
+.mainvideo{
+    width: 500px;
+    height: 400;
+}
+
+.cardHeadVideo{
+    width: 400px;
+    height: 300px;
+}
